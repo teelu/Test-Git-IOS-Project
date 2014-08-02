@@ -21,6 +21,7 @@
 		83FF1BEB198D69AE0066976A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FF1BCD198D69AD0066976A /* UIKit.framework */; };
 		83FF1BF3198D69AE0066976A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83FF1BF1198D69AE0066976A /* InfoPlist.strings */; };
 		83FF1BF5198D69AE0066976A /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FF1BF4198D69AE0066976A /* Git_TestTests.m */; };
+		83FF1C00198D6DFF0066976A /* TLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FF1BFF198D6DFF0066976A /* TLTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		83FF1BF0198D69AE0066976A /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		83FF1BF2198D69AE0066976A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83FF1BF4198D69AE0066976A /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		83FF1BFE198D6DFF0066976A /* TLTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTest.h; sourceTree = "<group>"; };
+		83FF1BFF198D6DFF0066976A /* TLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		83FF1BBD198D69AD0066976A = {
 			isa = PBXGroup;
 			children = (
+				83FF1BFE198D6DFF0066976A /* TLTest.h */,
+				83FF1BFF198D6DFF0066976A /* TLTest.m */,
 				83FF1BCF198D69AD0066976A /* Git Test */,
 				83FF1BEE198D69AE0066976A /* Git TestTests */,
 				83FF1BC8198D69AD0066976A /* Frameworks */,
@@ -253,6 +258,7 @@
 				83FF1BE0198D69AD0066976A /* TLViewController.m in Sources */,
 				83FF1BDA198D69AD0066976A /* TLAppDelegate.m in Sources */,
 				83FF1BD6198D69AD0066976A /* main.m in Sources */,
+				83FF1C00198D6DFF0066976A /* TLTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
